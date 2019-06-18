@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -7,19 +7,26 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel = "stylesheet" type = "text/css" href = "css/all.css">
     <style>
     h1{
       font-size: 88px;
       font-weight: 900;
+      border-radius: 10px;
     }
-  
+    .card{
+      border:none;
+    }
+    .card-footer{
+      border-radius: 10px;
+    }
     </style>
     <title>Santos & Workers</title>
   </head>
-  <body class  ="bg-primary">
+  <body>
       <nav class="navbar navbar-expand-lg navbar-light bg-white">
         <div class = "container">
-          <a class="navbar-brand" href="#">Santos& Workers</a>
+          <a class="navbar-brand" href="#">UX/LAB</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -27,41 +34,64 @@
           <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(página atual)</span></a>
+                <a class="nav-link" href="#">Início <span class="sr-only">(página atual)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#">Feed principal</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Postagem</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Dropdown
+                  Versão
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Ação</a>
-                  <a class="dropdown-item" href="#">Outra ação</a>
+                  <a class="dropdown-item" href="#">Versão 1.1</a>
+                  <a class="dropdown-item" href="#">Versão 1.2</a>
                   <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Algo mais aqui</a>
+                  <a class="dropdown-item" href="#">Github</a>
                 </div>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled" href="#">Desativado</a>
+                <a class="nav-link disabled" href="#"><i class = "fa fa-book"></i> Documentação</a>
               </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
               <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
-              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+              <button class="btn btn-primary my-2 my-sm-0" type="submit">Contato</button>
             </form>
           </div>
         </div>
       </nav>    
-      
-      <div class = "container billboard">
-        <h1><b>Santos<br> & Workers</b></h1>
-        <p>Developers Cloud</p>
-        <br>
-        <a class = "btn btn-primary">Acessar</a>
-        <a class = "btn btn-outline-primary">Recente</a>
-      </div>
+      <div class = "container">
+        <div class = "row">
+          <div class = "col-md-6">
+            <div class = "container billboard">
+              <h1><b>UX/LAB</b></h1>
+              <p><code><span class = "text-primary">from</span> modules.foundation <span class = "text-primary">import</span> code</code></p>
+              <br>
+              <a class = "btn btn-primary"> Acessar <i class = "fa fa-arrow-right"></i>  </a>
+              <a class = "btn btn-outline-primary"> Recente <i class = "fa fa-history"></i>  </a>
+            </div>
+          </div>
+
+          <!--div class = "col-md-6">
+            <h2><b>Santos Workers</b></h2>
+
+            <div class = "card">
+              <div class = "card-body bg-primary">
+                <i class = "fab fa-2x fa-facebook-square"></i>
+                <br>
+                Sample action
+              </div>
+              <div class = "card-footer bg-primary">
+                <a href = "#" class = "btn btn-success">Sample action</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div-->      
 
     
     <!-- Optional JavaScript -->
